@@ -24,9 +24,9 @@ export const ParallaxScroll = ({
 
     const fifth = Math.ceil(images.length / 3);
 
-    const firstPart = images.slice(0, fifth);
-    const secondPart = images.slice(fifth, 2 * fifth);
-    const thirdPart = images.slice(2 * fifth);
+    const firstPart = images.slice(0, 6);
+    const secondPart = images.slice(6, 13);
+    const thirdPart = images.slice(13);
 
     return (
         <div

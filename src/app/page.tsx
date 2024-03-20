@@ -1,9 +1,13 @@
-import React from 'react'
+import Footer from "./elements/Footer";
+import Hero from "./elements/Hero";
+import PersonPhoto from "./elements/PersonPhoto";
 
-export default function page() {
-    return (
-        <div>
-            <a href="/gamost11">Go</a>
-        </div>
-    )
+export default function Page() {
+  return (
+    <main className="h-max w-full">
+      <Hero />
+      <PersonPhoto/>
+      <Footer/>
+    </main>
+  );
 }

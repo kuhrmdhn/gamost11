@@ -6,10 +6,10 @@ export default function PersonPhoto() {
     return (
         <>
             <div className="h-fit relative w-full bg-black flex flex-col items-center justify-center rounded-md">
-                <h1 className="text-6xl font-bold text-center text-white relative z-20">
+                <h1 className="text-5xl font-bold text-center text-white relative z-20">
                     We Are GAMOST
                 </h1>
-                <div className="w-[40rem] h-20 relative">
+                <div className="w-[20rem] h-20 relative">
                     {/* Gradients */}
                     <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
                     <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
