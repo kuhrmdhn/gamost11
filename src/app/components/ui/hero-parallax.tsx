@@ -16,9 +16,9 @@ export const HeroParallax = ({
         thumbnail: string;
     }[];
 }) => {
-    const firstRow = products.slice(0, 5);
-    const secondRow = products.slice(5, 10);
-    const thirdRow = products.slice(10, 15);
+    const firstRow = products.slice(0, 6);
+    const secondRow = products.slice(6, 12);
+    const thirdRow = products.slice(12);
     const ref = React.useRef(null);
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -54,7 +54,7 @@ export const HeroParallax = ({
     return (
         <div
             ref={ref}
-            className="h-[250svh] md:h-[400svh] py-36 md:py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] mb-32"
+            className="h-max min-h-[250svh] sm:h-[100svh] lg:h-[400svh] bg-black py-36 md:py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] mb-32"
         >
             <Header />
             <motion.div

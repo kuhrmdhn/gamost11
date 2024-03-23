@@ -22,11 +22,9 @@ export const ParallaxScroll = ({
     const translateSecond = useTransform(scrollYProgress, [0, 1], [0, 200]);
     const translateThird = useTransform(scrollYProgress, [0, 1], [0, -200]);
 
-    const fifth = Math.ceil(images.length / 3);
-
-    const firstPart = images.slice(0, 6);
-    const secondPart = images.slice(6, 13);
-    const thirdPart = images.slice(13);
+    const firstPart = images.slice(0, 8);
+    const secondPart = images.slice(8, 16);
+    const thirdPart = images.slice(16);
 
     return (
         <div
@@ -46,8 +44,8 @@ export const ParallaxScroll = ({
                             <Image
                                 src={el}
                                 className="h-96 w-full object-cover object-center rounded-lg gap-10 !m-0 !p-0"
-                                height="400"
-                                width="400"
+                                height="300"
+                                width="300"
                                 alt="thumbnail"
                             />
                         </motion.div>
@@ -59,8 +57,8 @@ export const ParallaxScroll = ({
                             <Image
                                 src={el}
                                 className="h-96 w-full object-cover object-center rounded-lg gap-10 !m-0 !p-0"
-                                height="400"
-                                width="400"
+                                height="300"
+                                width="300"
                                 alt="thumbnail"
                             />
                         </motion.div>
@@ -72,8 +70,8 @@ export const ParallaxScroll = ({
                             <Image
                                 src={el}
                                 className="h-96 w-full object-cover object-center rounded-lg gap-10 !m-0 !p-0"
-                                height="400"
-                                width="400"
+                                height="300"
+                                width="300"
                                 alt="thumbnail"
                             />
                         </motion.div>

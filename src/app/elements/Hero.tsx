@@ -69,4 +69,8 @@ export const products = [
         title: "class 16",
         thumbnail: "/class/class (16).webp"
     },
+    {
+        title: "class 17",
+        thumbnail: "/class/class (17).webp"
+    },
 ]

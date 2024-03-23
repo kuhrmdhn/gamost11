@@ -6,17 +6,14 @@ export default function PersonPhoto() {
     return (
         <>
             <div className="h-fit relative w-full bg-black flex flex-col items-center justify-center rounded-md">
-                <h1 className="text-5xl font-bold text-center text-white relative z-20">
+                <h1 className="text-3xl md:text-5xl font-bold text-center text-white relative z-20">
                     We Are GAMOST
                 </h1>
-                <div className="w-[20rem] h-20 relative">
-                    {/* Gradients */}
+                <div className="w-full md:w-[20rem] h-20 relative">
                     <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
                     <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
                     <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
                     <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
-
-                    {/* Core component */}
                     <SparklesCore
                         background="transparent"
                         minSize={0.4}
@@ -25,8 +22,6 @@ export default function PersonPhoto() {
                         className="w-full h-full"
                         particleColor="#FFFFFF"
                     />
-
-                    {/* Radial Gradient to prevent sharp edges */}
                     <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                 </div>
                 <ParallaxScroll images={images} />
@@ -55,4 +50,9 @@ const images = [
     "/person/person (17).webp",
     "/person/person (18).webp",
     "/person/person (19).webp",
+    "/person/person (20).webp",
+    "/person/person (21).webp",
+    "/person/person (22).webp",
+    "/person/person (23).webp",
+    "/person/person (24).webp",
 ]

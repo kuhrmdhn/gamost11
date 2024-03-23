@@ -10,6 +10,7 @@ export default function Footer() {
         "group/group (3).webp",
         "group/group (4).webp",
         "group/group (5).webp",
+        "group/group (6).webp",
     ]
     return (
         <ImagesSlider className="h-[100svh] md:h-[40rem]" images={images}>
