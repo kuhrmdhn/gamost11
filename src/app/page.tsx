@@ -4,7 +4,7 @@ import PersonPhoto from "./elements/PersonPhoto";
 
 export default function Page() {
   return (
-    <main className="h-max w-full">
+    <main className="h-max w-full bg-black">
       <Hero />
       <PersonPhoto/>
       <Footer/>
