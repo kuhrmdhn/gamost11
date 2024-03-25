@@ -55,4 +55,5 @@ const images = [
     "/person/person (22).webp",
     "/person/person (23).webp",
     "/person/person (24).webp",
+    "/person/person (25).webp",
 ]
